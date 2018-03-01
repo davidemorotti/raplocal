@@ -9,7 +9,7 @@ services:
     image: amancevice/superset
     restart: always
     depends_on:
-      - postgres
+      - mysql
       - redis
     environment:
       SECRET_KEY: ${SECRET_KEY}
@@ -19,10 +19,10 @@ services:
     volumes:
       - ./superset_config.py:/etc/superset/superset_config.py
       - ./data/uploads:/usr/local/lib/python3.5/dist-packages/superset/app/static/uploads/
+    external_links:
+     - local_graphcool-db_1:mysql
 volumes:
   postgres:
     external: false
   redis:
     external: false
-external_links:
- - local_graphcool-db_1:mysql
