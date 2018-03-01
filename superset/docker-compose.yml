@@ -5,15 +5,6 @@ services:
     restart: always
     volumes:
       - redis:/data
-  postgres:
-    image: postgres
-    restart: always
-    environment:
-      POSTGRES_DB: superset
-      POSTGRES_PASSWORD: superset
-      POSTGRES_USER: superset
-    volumes:
-      - postgres:/var/lib/postgresql/data
   superset:
     image: amancevice/superset
     restart: always
@@ -33,3 +24,5 @@ volumes:
     external: false
   redis:
     external: false
+external_links:
+ - local_graphcool-db_1:mysql
