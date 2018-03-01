@@ -46,8 +46,9 @@ label {
   height: 0px;
   display: block;
   position: absolute;
-  top: 53px;
-  left: 45%;
+  top: 51px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #highlight_menu {
