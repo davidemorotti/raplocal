@@ -1,26 +1,14 @@
-vendor/
+.DS_Store
 node_modules/
+dist/
 npm-debug.log
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+# Logs
+logs
+*.log
+npm-debug.log*
 
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
-storage/*.key
-.env.*.php
-.env.php
-.env
-Homestead.yaml
-Homestead.json
+.idea/
 
-# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
-.rocketeer/
-
-# Nuxt build
-.nuxt
-
-# Nuxt generate
-dist
+# Graphcool project file
+project.graphcool
