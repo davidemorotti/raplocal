@@ -9,7 +9,6 @@ services:
     image: amancevice/superset
     restart: always
     depends_on:
-      - mysql
       - redis
     environment:
       SECRET_KEY: ${SECRET_KEY}
