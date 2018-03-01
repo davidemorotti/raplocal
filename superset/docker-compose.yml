@@ -32,7 +32,7 @@ services:
       - ./superset_config.py:/etc/superset/superset_config.py
       - ./data/uploads:/usr/local/lib/python3.5/dist-packages/superset/app/static/uploads/
 volumes:
-  postgres:
+  mysql:
     external: false
   redis:
     external: false
