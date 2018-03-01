@@ -23,6 +23,7 @@ services:
     restart: always
     depends_on:
       - redis
+      - mysql
     environment:
       SECRET_KEY: ${SECRET_KEY}
       MAPBOX_API_KEY: ${MAPBOX_API_KEY}
