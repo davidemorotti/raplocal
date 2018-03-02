@@ -49,6 +49,7 @@
     data: () => ({
       text: '',
       sourceUrl: '',
+      reactions: 0,
       showModal: false,
     }),
 

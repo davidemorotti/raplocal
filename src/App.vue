@@ -9,13 +9,13 @@
 
 <script>
 import ListPage from './components/ListPage.vue'
-import CreatePost from './components/CreatePost.vue'
+import CreateHighlight from './components/CreateHighlight.vue'
 
 export default {
   name: 'app',
   components: {
     'feed': ListPage,
-    'create': CreatePost,
+    'create': CreateHighlight,
   },
 }
 </script>

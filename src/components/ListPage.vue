@@ -7,8 +7,8 @@
 
 <template v-else>
   <ul>
-    <li v-for="post in allPosts" :key="post.id">
-      <post :post='post' class="post" />
+    <li v-for="highlight in allHighlights" :key="highlight.id">
+      <highlight :highlight='highlight' class="highlight" />
     </li>
   </ul>
 </template>
@@ -22,7 +22,7 @@
 </template>
 
 <style>
-  /*.post {
+  /*.highlight {
     margin-bottom: 20px;
     background-color:gray;
     border-radius:20px;
@@ -36,7 +36,7 @@
     width: 100%;
   }
 
-  .post {
+  .highlight {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -57,14 +57,14 @@
 
   /* On mouse-over, add a deeper shadow */
 
-  .post:hover {
+  .highlight:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
 </style>
 
 <script>
   import gql from 'graphql-tag'
-  import Post from './Post.vue'
+  import Highlight from './Highlight.vue'
 
   // GraphQL query
   const FeedQuery = gql `
@@ -82,7 +82,7 @@
   export default {
     // Local state
     data: () => ({
-      allPosts: {},
+      allHighlights: {},
       loading: 0,
     }),
     // Apollo GraphQL
