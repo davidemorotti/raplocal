@@ -29,21 +29,19 @@
       </div>
     </div>
 
-    <div class='introBox' v-if="showIntro">
-      <button class="closeModal" @click="showIntro=false">
-        X
-      </button>
-
+    <div class='introBox' v-if="showIntro" @click="showIntro=false">
       <div class="stats">
-        <img src="/static/images/team.jpg" width="100%">
+        <img src="/static/images/gang.jpg" width="100%" alt="gang">
 
-        <a href="https://github.com/davidemorotti/raplocal"><img alt="star this repo" src="http://githubbadges.com/star.svg?user=davidemorotti&repo=raplocal&style=flat" /></a>
+        <a href="https://github.com/davidemorotti/raplocal" target="_blank"><img alt="star this repo" src="http://githubbadges.com/star.svg?user=davidemorotti&repo=raplocal&style=flat" /></a>
       </div>
 
     </div>
 
-    <div class='createHighlight' @click="showModal = true">
-      <button class='newHighlight' >🎤 MEIND TEILEN</button>
+    <div class='createHighlight'><!-- @click="showModal = true" -->
+      <a href="https://github.com/davidemorotti/raplocal-chrome" target="_blank">
+        <button class='newHighlight'>🎤 MIC DROP</button>
+      </a>
     </div>
   </div>
 </template>

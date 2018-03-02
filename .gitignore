@@ -2,6 +2,7 @@
 node_modules/
 dist/
 npm-debug.log
+.ipynb_checkpoints
 
 # Logs
 logs

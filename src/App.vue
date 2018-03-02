@@ -2,6 +2,10 @@
   <div class="app">
     <div class="app-header">
       <img src="/static/images/raplocal-icon-square-google-128.png">
+      <fame>
+        <h1>RapLocal</h1>
+        An <a href="https://github.com/davidemorotti/raplocal/blob/master/README.md" target="_blank">#srfhack 2018</a> production
+      </fame>
     </div>
 
     <feed/>
@@ -32,6 +36,16 @@ body, input, button {
 
 ul li {
   list-style: none;
+}
+
+fame h1 {
+  font-family: "Latin Modern Roman", serif;
+}
+fame {
+  color: #53a;
+  font-size: 18px;
+  line-height: 0em;
+  text-transform: uppercase;
 }
 
 .app {
