@@ -40,65 +40,25 @@ cd raplocal
 ```
 
 
-### 2. Create Graphcool service
+### 2. Deploy Graphcool service
 
 ```sh
 # Install Graphcool Framework CLI
 npm install -g graphcool
-
-# Create a new service inside a directory called `server`
-graphcool init server
 ```
 
-This created the following file structure in the current directory:
-
-```
-.
-└── server
-    ├── graphcool.yml
-    ├── types.graphql
-    └── src
-        ├── hello.graphql
-        └── hello.js
-```
-
-### 3. Define data model
-
-Next, you need to define your data model inside the newly created `types.graphql`-file.
-
-Replace the current contents in `types.graphql` with the following type definition (you can delete the predefined `User` type):
-
-```graphql
-type Post @model {
-  # Required system field
-  id: ID! @isUnique # read-only (managed by Graphcool)
-
-  # Optional system fields (remove if not needed)
-  createdAt: DateTime! # read-only (managed by Graphcool)
-  updatedAt: DateTime! # read-only (managed by Graphcool)
-
-  description: String!
-  imageUrl: String!
-}
-```
-
-### 4. Deploy the GraphQL server
-
-You're now ready to put your Graphcool service into production! Navigate into the `server` directory and [deploy](https://docs-next.graph.cool/reference/graphcool-cli/commands-aiteerae6l#graphcool-deploy) the service:
+Navigate into the `server` directory and [deploy](https://docs-next.graph.cool/reference/graphcool-cli/commands-aiteerae6l#graphcool-deploy) the service:
 
 ```sh
 cd server
 graphcool deploy
 ```
 
-When prompted which cluster you want to deploy to, choose any of the **Backend-as-a-Service** options (`shared-eu-west-1`, `shared-ap-northeast-1` or `shared-us-west-2`).
-
-Save the HTTP endpoint for the `Simple API` from the output, you'll need it in the next step.
+When prompted which cluster you want to deploy to, choose any. Save the HTTP endpoint for the `Simple API` from the output, you'll need it in the next step.
 
 > **Note**: You can now test your GraphQL API inside a GraphQL playground. Simply type the `graphcool playground` command and start sending queries and mutations.
 
-
-### 5. Connect the app with your GraphQL API
+### 3. Connect the app with your GraphQL API
 
 Paste the `Simple API` endpoint to `./src/main.js` as the `uri` argument in the `createNetworkInterface` call:
 

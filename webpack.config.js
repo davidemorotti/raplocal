@@ -9,7 +9,7 @@ module.exports = {
     filename: 'build.js'
   },
   resolve: {
-    modules: ['src', 'node_modules'],
+    modules: ['src', 'node_modules', 'static'],
   },
   module: {
     rules: [

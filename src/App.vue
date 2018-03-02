@@ -1,8 +1,9 @@
 <template>
   <div class="app">
-  <create/>
+
     <feed/>
-    
+    <create/>
+
   </div>
 </template>
 

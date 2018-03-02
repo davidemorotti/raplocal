@@ -1,7 +1,7 @@
 <template>
   <div class='container'>
-    <img :src='post.imageUrl' v-bind:style='image'>
-    <div>{{ post.description }}</div>
+    <div>{{ highlight.text }}</div>
+    <a class='sourcelink' :src='highlight.sourceUrl'>SOURCE</a>
   </div>
 </template>
 
@@ -14,10 +14,10 @@
       }
     }),
     props: {
-      post: {
+      highlight: {
         type: Object,
         default: function () {
-          return { description: '', imageUrl: '' }
+          return { text: '', sourceUrl: '' }
         }
       },
     },

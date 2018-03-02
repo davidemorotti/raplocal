@@ -3,87 +3,83 @@
     <div class="modal-mask" v-if="showModal" @close="showModal = false">
       <div class="modal-wrapper">
         <div class="modal-container">
-  
+
           <div class="modal-header">
             <slot name="header">
-              Add New Photo
+              <button  @click="showModal = false">
+                X
+              </button>
+              Highlight
             </slot>
           </div>
-  
+
           <div class="modal-body">
             <slot name="body">
-              <input v-model="description" placeholder="Description">
-              <input v-model="imageUrl" placeholder="Image url">
-              <button @click="create">Create Post</button>
+              <textarea v-model="text"></textarea>
+              <input v-model="sourceUrl" placeholder="Page url">
+              <button @click="create">Share</button>
             </slot>
           </div>
-  
+
           <div class="modal-footer">
             <slot name="footer">
-              
-              <button  @click="showModal = false">
-                  Close Modal
-                </button>
             </slot>
           </div>
         </div>
       </div>
     </div>
-    <div class='createPost' @click="showModal = true">
-  
-      <img src="http://www.startuppassion.eu/wp-content/uploads/2017/03/plus-sign.png" class="plusImage" alt=""><br>
-      <button class='newPost' >NEW POST</button>
+    <div class='createHighlight' @click="showModal = true">
+      <img src="/static/images/flame.png" class="plusImage"><button class='newHighlight' >MEIND TEILEN</button>
     </div>
   </div>
 </template>
 
 <script>
   import gql from 'graphql-tag'
-  const createPost = gql `
-    mutation createPost($description: String!, $imageUrl: String!) {
-      createPost(description: $description, imageUrl: $imageUrl) {
+  const createHighlight = gql `
+    mutation createHighlight($text: String!, $sourceUrl: String!) {
+      createHighlight(text: $text, sourceUrl: $sourceUrl) {
         id
-        imageUrl
-        description
+        sourceUrl
+        text
       }
     }
   `
   export default {
     data: () => ({
-      description: '',
-      imageUrl: '',
+      text: '',
+      sourceUrl: '',
       showModal: false,
     }),
-  
+
     // Attribute
     methods: {
       create() {
-        const description = this.description
-        const imageUrl = this.imageUrl
-  
-        this.description = ''
-        this.imageUrl = ''
-  
+        const text = this.text
+        const sourceUrl = this.sourceUrl
+
         // Mutation
         this.$apollo.mutate({
-          mutation: createPost,
+          mutation: createHighlight,
           variables: {
-            description,
-            imageUrl,
+            text,
+            sourceUrl,
           },
           updateQueries: {
-            allPosts: (prev, {
+            allHighlights: (prev, {
               mutationResult
             }) => {
               return {
-                // append at head of list because we sort the posts reverse chronological
-                allPosts: [mutationResult.data.createPost, ...prev.allPosts],
+                // append at head of list because we sort the Highlights reverse chronological
+                allHighlights: [mutationResult.data.createHighlight, ...prev.allHighlights],
               }
             },
           },
         }).then((data) => {
           // Result
           console.log(data);
+          this.text = ''
+          this.sourceUrl = ''
           this.showModal=false;
         }).catch((error) => {
           // Error
@@ -95,33 +91,32 @@
 </script>
 
 <style>
-  .createPost {
+  .createHighlight {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 300px;
-    height: 300px;
+    height: 4em;
     margin-top: 35px;
     float: left;
   }
-  
-  .createPost:hover {
+
+  .createHighlight:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
-  
-  .newPost {
+
+  .newHighlight {
     border: none;
     color: gray;
     background-color: white;
   }
-  
+
   .plusImage {
-    opacity: 0.4;
-    margin-top: 25%;
-    width: 25%;
-    height: 25%;
+    height: 1.8em;
+    margin-top: 1em;
+    margin-bottom: -0.5em;
   }
-  
+
   .modal-mask {
   position: fixed;
   z-index: 9998;
@@ -141,7 +136,7 @@
 
 .modal-container {
   width: 400px;
-  height: 200px;
+  height: 13em;
   margin: 0px auto;
   padding: 20px 30px;
   background-color: #fff;
@@ -155,9 +150,19 @@
   margin-top: 0;
   color: #42b983;
 }
+.modal-header button {
+  float: right;
+  width: 2em;
+  margin-left: -2em;
+}
 
 .modal-body {
-  margin: 15%;
+  margin: 2em 0;
+}
+.modal-body textarea {
+  width: 100%;
+  height: 10em;
+  margin-bottom: 1em;
 }
 .modal-enter {
   opacity: 0;

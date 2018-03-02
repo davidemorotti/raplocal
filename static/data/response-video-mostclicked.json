@@ -1,0 +1,596 @@
+{
+  "next": "http://stage.api.srgssr.ch/integrationlayer/2.0/srf/mediaList/video/mostClicked?next=4c121f9f3e50606447bc5b3de0c652c4fbb3e0c95caec9af03fd3e0abf17c91b519d2c96c7f615aa",
+  "mediaList": [
+    {
+      "id": "9f7340d0-6dcd-46a0-ae13-eed2a3050859",
+      "mediaType": "VIDEO",
+      "vendor": "SRF",
+      "urn": "urn:srf:video:9f7340d0-6dcd-46a0-ae13-eed2a3050859",
+      "title": "Nach Nuhu-Berührung: Stocker fällt theatralisch",
+      "description": "Der Basler machte sich im Cup-Halbfinal gegen YB keine Freunde.",
+      "imageUrl": "https://ws.srf.ch/asset/image/audio/4c57c187-429f-4de7-9e56-0830df5e1431/EPISODE_IMAGE/1519771338.png",
+      "type": "CLIP",
+      "date": "2018-02-27T20:51:59+01:00",
+      "duration": 49000,
+      "playableAbroad": false,
+      "socialCountList": [
+        {
+          "key": "srgView",
+          "value": 12189
+        },
+        {
+          "key": "srgLike",
+          "value": 6
+        },
+        {
+          "key": "fbShare",
+          "value": 3
+        },
+        {
+          "key": "twitterShare",
+          "value": 4
+        },
+        {
+          "key": "googleShare",
+          "value": 4
+        },
+        {
+          "key": "whatsAppShare",
+          "value": 17
+        }
+      ],
+      "episode": {
+        "id": "dc8e367d-6f71-4b7b-b444-7ea4af1caeb4",
+        "title": "Nach Nuhu-Berührung: Stocker fällt theatralisch",
+        "publishedDate": "2018-02-27T20:51:59+01:00",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/a22ece10-aef0-4671-8490-27b17f6aaefe/WEBVISUAL/1435221883.jpg"
+      },
+      "show": {
+        "id": "c6137ce6-98d0-0001-e011-34b08f501f79",
+        "vendor": "SRF",
+        "transmission": "TV",
+        "urn": "urn:srf:show:tv:c6137ce6-98d0-0001-e011-34b08f501f79",
+        "title": "sportlive",
+        "lead": "Hier finden Sie die neusten Highlight-Clips aus den Liveübertragungen von SRF-Sport.",
+        "description": "Hier finden Sie die neusten Highlight-Clips aus den Liveübertragungen von SRF-Sport.",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/a22ece10-aef0-4671-8490-27b17f6aaefe/WEBVISUAL/1435221883.jpg",
+        "imageTitle": "sportlive",
+        "bannerImageUrl": "https://ws.srf.ch/asset/image/audio/a22ece10-aef0-4671-8490-27b17f6aaefe/HEADER_SRF_PLAYER/1435221883.jpg",
+        "primaryChannelId": "be35e233-9500-4a0e-af0a-e3b0d17385c6"
+      },
+      "presentation": "DEFAULT"
+    },
+    {
+      "id": "ac03fd6f-b7fa-4ec1-afe6-a6a5300d6ca7",
+      "mediaType": "VIDEO",
+      "vendor": "SRF",
+      "urn": "urn:srf:video:ac03fd6f-b7fa-4ec1-afe6-a6a5300d6ca7",
+      "title": "Seitentriebe, Folge 1",
+      "description": "Nele und Gianni sind seit zehn Jahren verheiratet und lieben sich immer noch. Aber die Lust aufeinander ist eingeschlafen. Aber Nele und Gianni wollen ihre Beziehung nicht einfach so aufs Spiel setzen. Kann eine Paartherapie wieder Schwung in ihr Sexleben bringen?",
+      "imageUrl": "https://ws.srf.ch/asset/image/audio/38f18c7e-06de-436d-a1e2-67d2fa782e3c/EPISODE_IMAGE/1519724129.png",
+      "type": "EPISODE",
+      "date": "2018-02-26T20:10:39+01:00",
+      "duration": 1417000,
+      "validTo": "2018-04-18T23:55:00+02:00",
+      "playableAbroad": false,
+      "socialCountList": [
+        {
+          "key": "srgView",
+          "value": 11966
+        },
+        {
+          "key": "srgLike",
+          "value": 10
+        },
+        {
+          "key": "fbShare",
+          "value": 8
+        },
+        {
+          "key": "twitterShare",
+          "value": 4
+        },
+        {
+          "key": "googleShare",
+          "value": 5
+        },
+        {
+          "key": "whatsAppShare",
+          "value": 29
+        }
+      ],
+      "episode": {
+        "id": "3d3eb938-9eb0-432f-ad75-80c60f6ff239",
+        "title": "Seitentriebe, Folge 1",
+        "description": "Seitentriebe",
+        "publishedDate": "2018-02-26T20:10:39+01:00",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/c5a76c75-b351-41f6-beaf-a78e2390455d/WEBVISUAL/1516887092.jpg"
+      },
+      "show": {
+        "id": "fb317115-614e-47eb-a4a9-c97a0435d518",
+        "vendor": "SRF",
+        "transmission": "TV",
+        "urn": "urn:srf:show:tv:fb317115-614e-47eb-a4a9-c97a0435d518",
+        "title": "Seitentriebe",
+        "lead": "Ab 26.2.: Nele und Gianni sind seit Jahren verheiratet und lieben. Aber die Lust ist eingeschlafen. Um ihre Beziehung zu retten, schlagen sie abenteuerliche Wege ein.",
+        "description": "Ab 26.2.: Nele und Gianni sind seit 10 Jahren verheiratet und lieben sich immer noch. Aber die Lust aufeinander ist eingeschlafen. Um ihre Beziehung zu retten, schlagen sie abenteuerliche Wege ein.",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/c5a76c75-b351-41f6-beaf-a78e2390455d/WEBVISUAL/1516887092.jpg",
+        "bannerImageUrl": "https://ws.srf.ch/asset/image/audio/c5a76c75-b351-41f6-beaf-a78e2390455d/HEADER_SRF_PLAYER/1516887070.jpg",
+        "primaryChannelId": "E4D5AD08-C1E8-46A3-BB58-4875051D60D2"
+      },
+      "presentation": "DEFAULT"
+    },
+    {
+      "id": "bf483124-0c96-47f8-96ee-b48a42fd3ff9",
+      "mediaType": "VIDEO",
+      "vendor": "SRF",
+      "urn": "urn:srf:video:bf483124-0c96-47f8-96ee-b48a42fd3ff9",
+      "title": "Der FCZ schlägt GC im Cup-Halbfinal",
+      "description": "Damit folgt die Equipe von Ludovic Magnin YB in den Final.",
+      "imageUrl": "https://ws.srf.ch/asset/image/audio/3bdb065e-1b03-4e42-b241-45405b289b4d/EPISODE_IMAGE/1519853967.png",
+      "type": "CLIP",
+      "date": "2018-02-28T22:23:24+01:00",
+      "duration": 333000,
+      "playableAbroad": false,
+      "socialCountList": [
+        {
+          "key": "srgView",
+          "value": 11718
+        },
+        {
+          "key": "srgLike",
+          "value": 2
+        },
+        {
+          "key": "fbShare",
+          "value": 5
+        },
+        {
+          "key": "twitterShare",
+          "value": 3
+        },
+        {
+          "key": "googleShare",
+          "value": 2
+        },
+        {
+          "key": "whatsAppShare",
+          "value": 10
+        }
+      ],
+      "episode": {
+        "id": "c1ecfe18-90f4-4e45-af89-46fb8c6a0d85",
+        "title": "Der FCZ schlägt GC im Cup-Halbfinal",
+        "publishedDate": "2018-02-28T22:23:24+01:00",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/a22ece10-aef0-4671-8490-27b17f6aaefe/WEBVISUAL/1435221883.jpg"
+      },
+      "show": {
+        "id": "c6137ce6-98d0-0001-e011-34b08f501f79",
+        "vendor": "SRF",
+        "transmission": "TV",
+        "urn": "urn:srf:show:tv:c6137ce6-98d0-0001-e011-34b08f501f79",
+        "title": "sportlive",
+        "lead": "Hier finden Sie die neusten Highlight-Clips aus den Liveübertragungen von SRF-Sport.",
+        "description": "Hier finden Sie die neusten Highlight-Clips aus den Liveübertragungen von SRF-Sport.",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/a22ece10-aef0-4671-8490-27b17f6aaefe/WEBVISUAL/1435221883.jpg",
+        "imageTitle": "sportlive",
+        "bannerImageUrl": "https://ws.srf.ch/asset/image/audio/a22ece10-aef0-4671-8490-27b17f6aaefe/HEADER_SRF_PLAYER/1435221883.jpg",
+        "primaryChannelId": "be35e233-9500-4a0e-af0a-e3b0d17385c6"
+      },
+      "presentation": "DEFAULT"
+    },
+    {
+      "id": "f73f327c-dd1b-4a69-88a7-fcbf80a20d79",
+      "mediaType": "VIDEO",
+      "vendor": "SRF",
+      "urn": "urn:srf:video:f73f327c-dd1b-4a69-88a7-fcbf80a20d79",
+      "title": "Brunners Hammer erlöst den FCZ",
+      "description": "Der Verteidiger erzielt im Cup-Halbfinal das entscheidende 2:1.",
+      "imageUrl": "https://ws.srf.ch/asset/image/audio/a4188531-afb6-4ea8-9408-77b3d26e1820/EPISODE_IMAGE/1519853182.png",
+      "type": "CLIP",
+      "date": "2018-02-28T22:13:21+01:00",
+      "duration": 67000,
+      "playableAbroad": false,
+      "socialCountList": [
+        {
+          "key": "srgView",
+          "value": 10052
+        },
+        {
+          "key": "srgLike",
+          "value": 1
+        },
+        {
+          "key": "fbShare",
+          "value": 1
+        },
+        {
+          "key": "twitterShare",
+          "value": 0
+        },
+        {
+          "key": "googleShare",
+          "value": 1
+        },
+        {
+          "key": "whatsAppShare",
+          "value": 8
+        }
+      ],
+      "episode": {
+        "id": "c0b2cff7-ba9a-49a7-9c28-e492d9529475",
+        "title": "Brunners Hammer erlöst den FCZ",
+        "publishedDate": "2018-02-28T22:13:21+01:00",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/a22ece10-aef0-4671-8490-27b17f6aaefe/WEBVISUAL/1435221883.jpg"
+      },
+      "show": {
+        "id": "c6137ce6-98d0-0001-e011-34b08f501f79",
+        "vendor": "SRF",
+        "transmission": "TV",
+        "urn": "urn:srf:show:tv:c6137ce6-98d0-0001-e011-34b08f501f79",
+        "title": "sportlive",
+        "lead": "Hier finden Sie die neusten Highlight-Clips aus den Liveübertragungen von SRF-Sport.",
+        "description": "Hier finden Sie die neusten Highlight-Clips aus den Liveübertragungen von SRF-Sport.",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/a22ece10-aef0-4671-8490-27b17f6aaefe/WEBVISUAL/1435221883.jpg",
+        "imageTitle": "sportlive",
+        "bannerImageUrl": "https://ws.srf.ch/asset/image/audio/a22ece10-aef0-4671-8490-27b17f6aaefe/HEADER_SRF_PLAYER/1435221883.jpg",
+        "primaryChannelId": "be35e233-9500-4a0e-af0a-e3b0d17385c6"
+      },
+      "presentation": "DEFAULT"
+    },
+    {
+      "id": "2485783f-1604-437d-b09c-5b5a323e8506",
+      "mediaType": "VIDEO",
+      "vendor": "SRF",
+      "urn": "urn:srf:video:2485783f-1604-437d-b09c-5b5a323e8506",
+      "title": "Der legendäre Cup-Halbfinal 2004",
+      "description": "Mit 6:5 n.V. besiegte das von Alain Geiger gecoachte GC den Stadrivalen mit dessen Trainer Lucien Favre.",
+      "imageUrl": "https://ws.srf.ch/asset/image/audio/59a31a52-84e9-4dc1-9895-d19c9be1c1e2/EPISODE_IMAGE/1519754561.png",
+      "type": "CLIP",
+      "date": "2018-02-27T18:49:29+01:00",
+      "duration": 183000,
+      "playableAbroad": false,
+      "socialCountList": [
+        {
+          "key": "srgView",
+          "value": 9234
+        },
+        {
+          "key": "srgLike",
+          "value": 4
+        },
+        {
+          "key": "fbShare",
+          "value": 8
+        },
+        {
+          "key": "twitterShare",
+          "value": 5
+        },
+        {
+          "key": "googleShare",
+          "value": 5
+        },
+        {
+          "key": "whatsAppShare",
+          "value": 21
+        }
+      ],
+      "episode": {
+        "id": "aeb7e304-64a8-46dd-b3f6-b10cd6356bd9",
+        "title": "Der legendäre Cup-Halbfinal 2004",
+        "publishedDate": "2018-02-27T18:49:29+01:00",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/f5226a20-1576-4cb5-8df4-3ea0e04f4539/WEBVISUAL/1435265649.jpg"
+      },
+      "show": {
+        "id": "5327eac1-e5a1-40aa-9f71-707e48258097",
+        "vendor": "SRF",
+        "transmission": "TV",
+        "urn": "urn:srf:show:tv:5327eac1-e5a1-40aa-9f71-707e48258097",
+        "title": "Sport-Clip",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/f5226a20-1576-4cb5-8df4-3ea0e04f4539/WEBVISUAL/1435265649.jpg",
+        "imageTitle": "Sport-Clip",
+        "bannerImageUrl": "https://ws.srf.ch/asset/image/audio/f5226a20-1576-4cb5-8df4-3ea0e04f4539/HEADER_SRF_PLAYER/1435265649.jpg",
+        "primaryChannelId": "be35e233-9500-4a0e-af0a-e3b0d17385c6"
+      },
+      "presentation": "DEFAULT"
+    },
+    {
+      "id": "ca6520b0-55c8-4d28-b751-833a4100adbf",
+      "mediaType": "VIDEO",
+      "vendor": "SRF",
+      "urn": "urn:srf:video:ca6520b0-55c8-4d28-b751-833a4100adbf",
+      "title": "10vor10 vom 27.02.2018",
+      "description": "10vor10",
+      "imageUrl": "https://ws.srf.ch/asset/image/audio/4c4351f9-fb2e-417c-855b-da851fba20b9/EPISODE_IMAGE/1519766616.png",
+      "type": "EPISODE",
+      "date": "2018-02-27T21:50:49+01:00",
+      "duration": 1660000,
+      "podcastSdUrl": "https://podcastsource.sf.tv/nps/276369614/1660.68/10vor10+vom+27.02.2018/podcast/10vor10/2018/02/10vor10_20180227_215049_9287893_v_podcast_h264_q10.mp4?assetId=ca6520b0-55c8-4d28-b751-833a4100adbf",
+      "podcastHdUrl": "https://podcastsource.sf.tv/nps/753926259/1660.68/10vor10+vom+27.02.2018/podcast/10vor10/2018/02/10vor10_20180227_215049_9287893_v_podcast_h264_q30.mp4?assetId=ca6520b0-55c8-4d28-b751-833a4100adbf",
+      "playableAbroad": true,
+      "socialCountList": [
+        {
+          "key": "srgView",
+          "value": 8881
+        },
+        {
+          "key": "srgLike",
+          "value": 4
+        },
+        {
+          "key": "fbShare",
+          "value": 2
+        },
+        {
+          "key": "twitterShare",
+          "value": 2
+        },
+        {
+          "key": "googleShare",
+          "value": 2
+        },
+        {
+          "key": "whatsAppShare",
+          "value": 14
+        }
+      ],
+      "episode": {
+        "id": "09929569-b749-48ed-81af-442af8080045",
+        "title": "10vor10 vom 27.02.2018",
+        "description": "10vor10",
+        "publishedDate": "2018-02-27T21:50:49+01:00",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/7b99fee0-a71e-486d-b3f6-841103157d7d/WEBVISUAL/1448267751.jpg"
+      },
+      "show": {
+        "id": "c38cc259-b5cd-4ac1-b901-e3fddd901a3d",
+        "vendor": "SRF",
+        "transmission": "TV",
+        "urn": "urn:srf:show:tv:c38cc259-b5cd-4ac1-b901-e3fddd901a3d",
+        "title": "10vor10",
+        "lead": "Das News-Magazin berichtet von Montag bis Freitag über die Hintergründe zu den Schlagzeilen des Tages aus dem In- und Ausland.",
+        "description": "Das News-Magazin berichtet von Montag bis Freitag über die Hintergründe zu den Schlagzeilen des Tages aus dem In- und Ausland.",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/7b99fee0-a71e-486d-b3f6-841103157d7d/WEBVISUAL/1448267751.jpg",
+        "imageTitle": "10vor10",
+        "bannerImageUrl": "https://ws.srf.ch/asset/image/audio/7b99fee0-a71e-486d-b3f6-841103157d7d/HEADER_SRF_PLAYER/1509085137.jpg",
+        "primaryChannelId": "23FFBE1B-65CE-4188-ADD2-C724186C2C9F"
+      },
+      "presentation": "DEFAULT"
+    },
+    {
+      "id": "3a9df3b3-5465-4a5e-b549-257169788113",
+      "mediaType": "VIDEO",
+      "vendor": "SRF",
+      "urn": "urn:srf:video:3a9df3b3-5465-4a5e-b549-257169788113",
+      "title": "Der FCZ gewinnt das Cup-Derby",
+      "description": "Nach einem 2:1 über GC steht Rivale FCZ im Cup-Final.",
+      "imageUrl": "https://ws.srf.ch/asset/image/audio/1b0f45d6-f464-4494-9a9c-e6acd3795fcf/EPISODE_IMAGE/1519857740.png",
+      "type": "EPISODE",
+      "date": "2018-02-28T22:35:46+01:00",
+      "duration": 120000,
+      "playableAbroad": false,
+      "socialCountList": [
+        {
+          "key": "srgView",
+          "value": 7475
+        },
+        {
+          "key": "srgLike",
+          "value": 1
+        },
+        {
+          "key": "fbShare",
+          "value": 4
+        },
+        {
+          "key": "twitterShare",
+          "value": 2
+        },
+        {
+          "key": "googleShare",
+          "value": 2
+        },
+        {
+          "key": "whatsAppShare",
+          "value": 2
+        }
+      ],
+      "episode": {
+        "id": "ebca780e-8ab8-4a99-8743-8e40b1f35e86",
+        "title": "«eishockeyaktuell» vom 28.02.2018",
+        "description": "Am Mittwoch in «eishockeyaktuell»: Das Direktduell um die letzten Playoffplätze zwischen den SCL Tigers und Servette und die Spielberichte von Ambri - Kloten, Bern - Davos, Lugano - ZSC Lions, Lausanne - Zug und Fribourg - Biel. Moderation: Daniela Milanese.",
+        "publishedDate": "2018-02-28T22:35:46+01:00",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/92b4df77-1742-4a7c-a7c1-0718415b2d1e/WEBVISUAL/1504524056.jpg"
+      },
+      "show": {
+        "id": "f547639b-d8fd-45e3-967a-0605316bd6eb",
+        "vendor": "SRF",
+        "transmission": "TV",
+        "urn": "urn:srf:show:tv:f547639b-d8fd-45e3-967a-0605316bd6eb",
+        "title": "eishockeyaktuell",
+        "lead": "Alle Spiele, alle Tore – emotional, vertiefend, packend. «eishockeyaktuell» fokussiert auf die entscheidenden Szenen, liefert Reaktionen, analysiert und erläutert das Geschehen der Runde.",
+        "description": "Alle Spiele, alle Tore – emotional, vertiefend, packend. «eishockeyaktuell» fokussiert auf die entscheidenden Szenen, liefert Reaktionen, analysiert und erläutert das Geschehen der Runde.",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/92b4df77-1742-4a7c-a7c1-0718415b2d1e/WEBVISUAL/1504524056.jpg",
+        "bannerImageUrl": "https://ws.srf.ch/asset/image/audio/92b4df77-1742-4a7c-a7c1-0718415b2d1e/HEADER_SRF_PLAYER/1504524026.jpg",
+        "primaryChannelId": "E4D5AD08-C1E8-46A3-BB58-4875051D60D2"
+      },
+      "presentation": "DEFAULT"
+    },
+    {
+      "id": "f852f74c-bcab-4e31-9a7b-8e37d488f339",
+      "mediaType": "VIDEO",
+      "vendor": "SRF",
+      "urn": "urn:srf:video:f852f74c-bcab-4e31-9a7b-8e37d488f339",
+      "title": "Tagesschau vom 28.02.2018, 19:30",
+      "description": "Lohngleichheit, Pierin Vincenz angeklagt, Schäfer im Winter",
+      "imageUrl": "https://ws.srf.ch/asset/image/audio/c25fa42f-e178-4323-ba13-f89e988114eb/EPISODE_IMAGE/1519845468.png",
+      "type": "EPISODE",
+      "date": "2018-02-28T19:30:00+01:00",
+      "duration": 1496000,
+      "podcastSdUrl": "https://podcastsource.sf.tv/nps/249051264/1496.44/Tagesschau+vom+28.02.2018%2C+19%3A30/podcast/ts20/2018/02/ts20_20180228_193000_9297624_v_podcast_h264_q10.mp4?assetId=f852f74c-bcab-4e31-9a7b-8e37d488f339",
+      "podcastHdUrl": "https://podcastsource.sf.tv/nps/679439143/1496.44/Tagesschau+vom+28.02.2018%2C+19%3A30/podcast/ts20/2018/02/ts20_20180228_193000_9297624_v_podcast_h264_q30.mp4?assetId=f852f74c-bcab-4e31-9a7b-8e37d488f339",
+      "playableAbroad": true,
+      "socialCountList": [
+        {
+          "key": "srgView",
+          "value": 7374
+        },
+        {
+          "key": "srgLike",
+          "value": 0
+        },
+        {
+          "key": "fbShare",
+          "value": 1
+        },
+        {
+          "key": "twitterShare",
+          "value": 1
+        },
+        {
+          "key": "googleShare",
+          "value": 2
+        },
+        {
+          "key": "whatsAppShare",
+          "value": 9
+        }
+      ],
+      "episode": {
+        "id": "49be24b9-5967-4f1c-ba07-443ab8166326",
+        "title": "Tagesschau vom 28.02.2018, 19:30",
+        "description": "Strafverfahren gegen Pierin Vincenz / Gleichstellungsgesetz im Ständerat / Papst besucht die Schweiz",
+        "publishedDate": "2018-02-28T19:30:00+01:00",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/7e18e733-622b-4bd5-9323-971239e49844/WEBVISUAL/1453477895.jpg"
+      },
+      "show": {
+        "id": "ff969c14-c5a7-44ab-ab72-14d4c9e427a9",
+        "vendor": "SRF",
+        "transmission": "TV",
+        "urn": "urn:srf:show:tv:ff969c14-c5a7-44ab-ab72-14d4c9e427a9",
+        "title": "Tagesschau",
+        "lead": "Die «Tagesschau» berichtet über Themen aus Politik, Wirtschaft, Kultur, Sport, Gesellschaft und Wissenschaft aus dem In- und Ausland.",
+        "description": "Die «Tagesschau» berichtet über Themen aus Politik, Wirtschaft, Kultur, Sport, Gesellschaft und Wissenschaft aus dem In- und Ausland. Die «Tagesschau» informiert am Mittag, um 18 Uhr, um 19:30 Uhr und am späten Abend über das aktuelle Geschehen. Die Mittagsausgabe, die Hauptausgabe von 19:30 Uhr und die Spätausgabe am Wochenende sind auch online verfügbar.",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/7e18e733-622b-4bd5-9323-971239e49844/WEBVISUAL/1453477895.jpg",
+        "imageTitle": "Tagesschau",
+        "bannerImageUrl": "https://ws.srf.ch/asset/image/audio/7e18e733-622b-4bd5-9323-971239e49844/HEADER_SRF_PLAYER/1453477895.jpg",
+        "primaryChannelId": "23FFBE1B-65CE-4188-ADD2-C724186C2C9F"
+      },
+      "presentation": "DEFAULT"
+    },
+    {
+      "id": "0037e17d-5799-4c8e-bb95-6d3bc586d257",
+      "mediaType": "VIDEO",
+      "vendor": "SRF",
+      "urn": "urn:srf:video:0037e17d-5799-4c8e-bb95-6d3bc586d257",
+      "title": "Josis 5. Assist zum Game-Winning-Goal",
+      "description": "Der Berner Verteidiger bereitet beim 6.5-Sieg von Nashville gegen Winnipeg 5 Treffer vor. So auch das entscheidende Tor kurz vor Schluss.",
+      "imageUrl": "https://ws.srf.ch/asset/image/audio/d135e5f1-40e2-48c1-990e-166e7a9eccb7/EPISODE_IMAGE/1519802309.png",
+      "type": "CLIP",
+      "date": "2018-02-28T08:12:36+01:00",
+      "duration": 25000,
+      "playableAbroad": false,
+      "socialCountList": [
+        {
+          "key": "srgView",
+          "value": 6847
+        },
+        {
+          "key": "srgLike",
+          "value": 1
+        },
+        {
+          "key": "fbShare",
+          "value": 1
+        },
+        {
+          "key": "twitterShare",
+          "value": 0
+        },
+        {
+          "key": "googleShare",
+          "value": 0
+        },
+        {
+          "key": "whatsAppShare",
+          "value": 1
+        }
+      ],
+      "episode": {
+        "id": "80504fa3-b0a7-461f-8f11-cebdc5a8c47b",
+        "title": "Josis 5. Assist zum Game-Winning-Goal",
+        "publishedDate": "2018-02-28T08:12:36+01:00",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/f5226a20-1576-4cb5-8df4-3ea0e04f4539/WEBVISUAL/1435265649.jpg"
+      },
+      "show": {
+        "id": "5327eac1-e5a1-40aa-9f71-707e48258097",
+        "vendor": "SRF",
+        "transmission": "TV",
+        "urn": "urn:srf:show:tv:5327eac1-e5a1-40aa-9f71-707e48258097",
+        "title": "Sport-Clip",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/f5226a20-1576-4cb5-8df4-3ea0e04f4539/WEBVISUAL/1435265649.jpg",
+        "imageTitle": "Sport-Clip",
+        "bannerImageUrl": "https://ws.srf.ch/asset/image/audio/f5226a20-1576-4cb5-8df4-3ea0e04f4539/HEADER_SRF_PLAYER/1435265649.jpg",
+        "primaryChannelId": "be35e233-9500-4a0e-af0a-e3b0d17385c6"
+      },
+      "presentation": "DEFAULT"
+    },
+    {
+      "id": "3077e1f2-a8a6-4d4e-9bb1-cd11c93cd2f7",
+      "mediaType": "VIDEO",
+      "vendor": "SRF",
+      "urn": "urn:srf:video:3077e1f2-a8a6-4d4e-9bb1-cd11c93cd2f7",
+      "title": "YB schlägt Basel und steht im Cupfinal",
+      "description": "Die Young Boys setzen sich im Halbfinal 2:0 durch.",
+      "imageUrl": "https://ws.srf.ch/asset/image/audio/f4c3b82e-64d4-4702-afd7-4b12fdbfbc33/EPISODE_IMAGE/1519806967.png",
+      "type": "CLIP",
+      "date": "2018-02-28T09:29:57+01:00",
+      "duration": 216000,
+      "playableAbroad": false,
+      "socialCountList": [
+        {
+          "key": "srgView",
+          "value": 6799
+        },
+        {
+          "key": "srgLike",
+          "value": 1
+        },
+        {
+          "key": "fbShare",
+          "value": 1
+        },
+        {
+          "key": "twitterShare",
+          "value": 1
+        },
+        {
+          "key": "googleShare",
+          "value": 0
+        },
+        {
+          "key": "whatsAppShare",
+          "value": 6
+        }
+      ],
+      "episode": {
+        "id": "8c0a4731-67cf-490f-9c0e-d03a39dd2b0c",
+        "title": "YB schlägt Basel und steht im Cupfinal",
+        "publishedDate": "2018-02-28T09:29:57+01:00",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/f5226a20-1576-4cb5-8df4-3ea0e04f4539/WEBVISUAL/1435265649.jpg"
+      },
+      "show": {
+        "id": "5327eac1-e5a1-40aa-9f71-707e48258097",
+        "vendor": "SRF",
+        "transmission": "TV",
+        "urn": "urn:srf:show:tv:5327eac1-e5a1-40aa-9f71-707e48258097",
+        "title": "Sport-Clip",
+        "imageUrl": "https://ws.srf.ch/asset/image/audio/f5226a20-1576-4cb5-8df4-3ea0e04f4539/WEBVISUAL/1435265649.jpg",
+        "imageTitle": "Sport-Clip",
+        "bannerImageUrl": "https://ws.srf.ch/asset/image/audio/f5226a20-1576-4cb5-8df4-3ea0e04f4539/HEADER_SRF_PLAYER/1435265649.jpg",
+        "primaryChannelId": "be35e233-9500-4a0e-af0a-e3b0d17385c6"
+      },
+      "presentation": "DEFAULT"
+    }
+  ]
+}
