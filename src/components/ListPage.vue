@@ -68,11 +68,12 @@
 
   // GraphQL query
   const FeedQuery = gql `
-    query allPosts {
-      allPosts(orderBy: createdAt_DESC) {
+    query allHighlights {
+      allHighlights(orderBy: createdAt_DESC) {
         id
-        imageUrl
-        description
+        sourceUrl
+        reactions
+        text
       }
     }
   `
@@ -86,14 +87,14 @@
     }),
     // Apollo GraphQL
     apollo: {
-      allPosts: {
+      allHighlights: {
         query: FeedQuery,
         loadingKey: 'loading',
       },
     },
     components: {
       // <my-component> will only be available in parent's template
-      'post': Post
+      'highlight': Highlight
     }
   }
 </script>

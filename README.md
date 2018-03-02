@@ -28,10 +28,6 @@ We used the following technologies:
 
 ## Quickstart
 
-<!--
-For more information on how to get started [refer to the full vue-apollo-instagram tutorial](https://www.graph.cool/docs/quickstart/).
--->
-
 ### 1. Clone repository
 
 ```sh
@@ -77,7 +73,8 @@ yarn start # open http://localhost:3000 in your browser
 
 ## Next steps
 
-* [Documentation](https://docs-next.graph.cool)
+* [Graph.cool Documentation](https://docs-next.graph.cool)
+* [vue-apollo-instagram tutorial](https://www.graph.cool/docs/quickstart/)
 * [Advanced GraphQL features](https://www.graph.cool/docs/tutorials/advanced-features-eath7duf7d/)
 * [Authentication & Permissions](https://www.graph.cool/docs/reference/authorization/overview-iegoo0heez/)
 * [Implementing business logic with serverless functions](https://www.graph.cool/docs/reference/functions/overview-boo6uteemo/)
