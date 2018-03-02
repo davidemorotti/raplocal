@@ -2,6 +2,8 @@
 
 A community content booster as online arena of opinions: this is a browser extension, database service and frontend created at [SRF hackdays 2018](http://hackdays.ch). See also the companion browser extension which collects data at [RapLocal-Chrome](https://github.com/davidemorotti/raplocal-chrome).
 
+![](screenshot.jpg)
+
 The intent of this project is to generate a rich dataset of user reactions to content on SRF and other websites, that we can mine using machine learning. Our goal is to create an effective, content driven analytics system that is more user facing in than standard web analytics, and might be a way out of the commenting system sackgasse most news websites are in.
 
 Our solution could be integrated directly into the [Escenic CMS](http://www.escenic.com/solutions/extensibility) used on the site, or distributed as an extension in the Chrome and Firefox App Stores.
