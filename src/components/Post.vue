@@ -2,6 +2,7 @@
   <div class='container'>
     <div>{{ highlight.text }}</div>
     <a class='sourcelink' :src='highlight.sourceUrl'>SOURCE</a>
+    <a class='reactions'>{{ highlight.reactions }}</a>
   </div>
 </template>
 
@@ -17,7 +18,7 @@
       highlight: {
         type: Object,
         default: function () {
-          return { text: '', sourceUrl: '' }
+          return { text: '', sourceUrl: '', reactions: 0 }
         }
       },
     },

@@ -1,6 +1,6 @@
 {
-  "name": "vue-apollo-instagram-example",
-  "description": ":camera: Instagram clone built with Vue 2 & Apollo Client",
+  "name": "raplocal",
+  "description": "An #srfhack project",
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --inline --hot --port 3000",
