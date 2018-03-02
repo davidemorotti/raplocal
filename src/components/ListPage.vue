@@ -14,10 +14,6 @@
 </template>
 
 
-    <div class="stats">
-      <img src="/static/images/fakestats.png">
-    </div>
-
   </div>
 </template>
 

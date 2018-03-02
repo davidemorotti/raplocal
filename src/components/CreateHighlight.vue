@@ -6,7 +6,7 @@
 
           <div class="modal-header">
             <slot name="header">
-              <button  @click="showModal = false">
+              <button class="closeModal" @click="showModal = false">
                 X
               </button>
               Highlight
@@ -28,6 +28,19 @@
         </div>
       </div>
     </div>
+
+    <div class='introBox' v-if="showIntro">
+      <button class="closeModal" @click="showIntro=false">
+        X
+      </button>
+
+      <div class="stats">
+        <img src="/static/images/raplocal-icon-square-google-128.png">
+        <img src="/static/images/fakestats.png">
+      </div>
+
+    </div>
+
     <div class='createHighlight' @click="showModal = true">
       <img src="/static/images/flame.png" class="plusImage"><button class='newHighlight' >MEIND TEILEN</button>
     </div>
@@ -51,6 +64,7 @@
       sourceUrl: '',
       reactions: 0,
       showModal: false,
+      showIntro: true
     }),
 
     // Attribute
@@ -92,14 +106,31 @@
 </script>
 
 <style>
-  .createHighlight {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  .introBox {
+    /* Add shadows to create the "card" effect
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+
+    border: 30px solid purple;
+    background: #fff;
     transition: 0.3s;
     width: 300px;
-    height: 4em;
-    margin-top: 35px;
-    float: left;
+    height: auto;
+    margin-bottom: 35px;
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -165px;
+    margin-top: -10em;
+  }
+
+  .createHighlight {
+    position: fixed;
+    left: 50%;
+    bottom: 1em;
+    width: 10em;
+    height: 3em;
+    margin-left: -5em;
   }
 
   .createHighlight:hover {
@@ -119,67 +150,67 @@
   }
 
   .modal-mask {
-  position: fixed;
-  z-index: 9998;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, .5);
-  display: table;
-  transition: opacity .3s ease;
-}
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: table;
+    transition: opacity .3s ease;
+  }
 
-.modal-wrapper {
-  display: table-cell;
-  vertical-align: middle;
-}
+  .modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+  }
 
-.modal-container {
-  width: 400px;
-  height: 13em;
-  margin: 0px auto;
-  padding: 20px 30px;
-  background-color: #fff;
-  border-radius: 2px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
-  transition: all .3s ease;
-  font-family: Helvetica, Arial, sans-serif;
-}
+  .modal-container {
+    width: 400px;
+    height: 13em;
+    margin: 0px auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+    transition: all .3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+  }
 
-.modal-header h3 {
-  margin-top: 0;
-  color: #42b983;
-}
-.modal-header button {
-  float: right;
-  width: 2em;
-  margin-left: -2em;
-}
+  .modal-header h3 {
+    margin-top: 0;
+    color: #42b983;
+  }
+  .closeModal {
+    float: right;
+    width: 2em;
+    margin-left: -2em;
+  }
 
-.modal-body {
-  margin: 2em 0;
-}
-.modal-body textarea {
-  width: 100%;
-  height: 10em;
-  margin-bottom: 1em;
-}
-.modal-enter {
-  opacity: 0;
-}
-.modal-footer{
-  float:right;
-}
-.modal-leave-active {
-  opacity: 0;
-}
+  .modal-body {
+    margin: 2em 0;
+  }
+  .modal-body textarea {
+    width: 100%;
+    height: 10em;
+    margin-bottom: 1em;
+  }
+  .modal-enter {
+    opacity: 0;
+  }
+  .modal-footer{
+    float:right;
+  }
+  .modal-leave-active {
+    opacity: 0;
+  }
 
-.modal-enter .modal-container,
-.modal-leave-active .modal-container {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
+  .modal-enter .modal-container,
+  .modal-leave-active .modal-container {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
   /*
   .create {
     text-align: center;
