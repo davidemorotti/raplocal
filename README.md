@@ -1,6 +1,8 @@
 # RapLocal
 
-A community content booster as online arena of opinions: this is a browser extension, database service and frontend created at [SRF hackdays 2018](http://hackdays.ch). See also the companion browser extension which collects data at [RapLocal-Chrome](https://github.com/davidemorotti/raplocal-chrome).
+A community content booster as online arena of opinions: this is a browser extension, database service and frontend created at [SRF hackdays 2018](http://hackdays.ch). See also the companion [browser extension](https://github.com/davidemorotti/raplocal-chrome).
+
+**[Pitch deck](https://speakerdeck.com/twesterhuys/raplocal) ~ [Demo site](http://raplocal.soda.camp) ~ [Chrome plugin](https://github.com/davidemorotti/raplocal-chrome)**
 
 ![](screenshot.jpg)
 
