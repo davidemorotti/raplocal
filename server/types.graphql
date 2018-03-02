@@ -6,8 +6,17 @@ type User @model {
 
 type Highlight @model {
   id: ID! @isUnique
-  sourceUrl: String
   createdAt: DateTime!
+  sourceUrl: String
   text: String
   reactions: Int! @defaultValue(value: 0)
+  productions: [Production!]! @relation(name: "ProductionOnHighlight")
+}
+
+type Production @model {
+  id: ID! @isUnique
+  createdAt: DateTime!
+  embedUrl: String
+  text: String
+  highlights: [Highlight!]! @relation(name: "ProductionOnHighlight")
 }
