@@ -32,6 +32,6 @@
 </script>
 <style lang="css">
   .voted {
-    background: green;
+    background: white;
   }
 </style>
