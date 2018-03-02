@@ -1,0 +1,1294 @@
+{
+ "sentences": [
+  {
+   "text": {
+    "content": "Die Rad-WM könnte damit nach 1923, 1929 und 1946, das vierte Mal in Zürich stattfinden - 76 oder 77 Jahre nach der letzten Austragung.",
+    "beginOffset": -1
+   },
+   "sentiment": {
+    "magnitude": 0.1,
+    "score": -0.1
+   }
+  },
+  {
+   "text": {
+    "content": "2009 war mit Mendrisio das letzte Mal eine Schweizer Ortschaft Austragungsort der Strassen-WM.",
+    "beginOffset": -1
+   },
+   "sentiment": {
+    "magnitude": 0.6,
+    "score": -0.6
+   }
+  }
+ ],
+ "tokens": [
+  {
+   "text": {
+    "content": "Die",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "DET",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "NOMINATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "NEUTER",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 3,
+    "label": "DET"
+   },
+   "lemma": "Der"
+  },
+  {
+   "text": {
+    "content": "Rad",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NOUN",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "NOMINATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "NEUTER",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 2,
+    "label": "GOESWITH"
+   },
+   "lemma": "Rad"
+  },
+  {
+   "text": {
+    "content": "-",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "PUNCT",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 3,
+    "label": "GOESWITH"
+   },
+   "lemma": "-"
+  },
+  {
+   "text": {
+    "content": "WM",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NOUN",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "NOMINATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "MASCULINE",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 18,
+    "label": "NSUBJ"
+   },
+   "lemma": "WM"
+  },
+  {
+   "text": {
+    "content": "könnte",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "VERB",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "PAST",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 18,
+    "label": "AUX"
+   },
+   "lemma": "können"
+  },
+  {
+   "text": {
+    "content": "damit",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "ADV",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 6,
+    "label": "ADVMOD"
+   },
+   "lemma": "damit"
+  },
+  {
+   "text": {
+    "content": "nach",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "ADP",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 18,
+    "label": "PREP"
+   },
+   "lemma": "nach"
+  },
+  {
+   "text": {
+    "content": "1923",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NUM",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 6,
+    "label": "POBJ"
+   },
+   "lemma": "1923"
+  },
+  {
+   "text": {
+    "content": ",",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "PUNCT",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 18,
+    "label": "P"
+   },
+   "lemma": ","
+  },
+  {
+   "text": {
+    "content": "1929",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NUM",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 18,
+    "label": "TMOD"
+   },
+   "lemma": "1929"
+  },
+  {
+   "text": {
+    "content": "und",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "CONJ",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 9,
+    "label": "CC"
+   },
+   "lemma": "und"
+  },
+  {
+   "text": {
+    "content": "1946",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NUM",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 9,
+    "label": "CONJ"
+   },
+   "lemma": "1946"
+  },
+  {
+   "text": {
+    "content": ",",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "PUNCT",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 18,
+    "label": "P"
+   },
+   "lemma": ","
+  },
+  {
+   "text": {
+    "content": "das",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "DET",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "NOMINATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "NEUTER",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 15,
+    "label": "DET"
+   },
+   "lemma": "der"
+  },
+  {
+   "text": {
+    "content": "vierte",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "ADJ",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "NOMINATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "NEUTER",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 15,
+    "label": "AMOD"
+   },
+   "lemma": "vierte"
+  },
+  {
+   "text": {
+    "content": "Mal",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NOUN",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "ACCUSATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "NEUTER",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 18,
+    "label": "TMOD"
+   },
+   "lemma": "Mal"
+  },
+  {
+   "text": {
+    "content": "in",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "ADP",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 18,
+    "label": "PREP"
+   },
+   "lemma": "in"
+  },
+  {
+   "text": {
+    "content": "Zürich",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NOUN",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "DATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "NEUTER",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 16,
+    "label": "POBJ"
+   },
+   "lemma": "Zürich"
+  },
+  {
+   "text": {
+    "content": "stattfinden",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "VERB",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 18,
+    "label": "ROOT"
+   },
+   "lemma": "stattfinden"
+  },
+  {
+   "text": {
+    "content": "-",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "PUNCT",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 18,
+    "label": "P"
+   },
+   "lemma": "-"
+  },
+  {
+   "text": {
+    "content": "76",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NUM",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 23,
+    "label": "NUM"
+   },
+   "lemma": "76"
+  },
+  {
+   "text": {
+    "content": "oder",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "CONJ",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 20,
+    "label": "CC"
+   },
+   "lemma": "oder"
+  },
+  {
+   "text": {
+    "content": "77",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NUM",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 20,
+    "label": "CONJ"
+   },
+   "lemma": "77"
+  },
+  {
+   "text": {
+    "content": "Jahre",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NOUN",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "ACCUSATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "NEUTER",
+    "mood": "MOOD_UNKNOWN",
+    "number": "PLURAL",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 24,
+    "label": "NPADVMOD"
+   },
+   "lemma": "Jahr"
+  },
+  {
+   "text": {
+    "content": "nach",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "ADP",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 18,
+    "label": "PREP"
+   },
+   "lemma": "nach"
+  },
+  {
+   "text": {
+    "content": "der",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "DET",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "DATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "FEMININE",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 27,
+    "label": "DET"
+   },
+   "lemma": "der"
+  },
+  {
+   "text": {
+    "content": "letzten",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "ADJ",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "DATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "FEMININE",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 27,
+    "label": "AMOD"
+   },
+   "lemma": "letzte"
+  },
+  {
+   "text": {
+    "content": "Austragung",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NOUN",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "DATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "FEMININE",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 24,
+    "label": "POBJ"
+   },
+   "lemma": "Austragung"
+  },
+  {
+   "text": {
+    "content": ".",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "PUNCT",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 18,
+    "label": "P"
+   },
+   "lemma": "."
+  },
+  {
+   "text": {
+    "content": "2009",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NUM",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 30,
+    "label": "TMOD"
+   },
+   "lemma": "2009"
+  },
+  {
+   "text": {
+    "content": "war",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "VERB",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "INDICATIVE",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "PAST",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 30,
+    "label": "ROOT"
+   },
+   "lemma": "sein"
+  },
+  {
+   "text": {
+    "content": "mit",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "ADP",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 30,
+    "label": "PREP"
+   },
+   "lemma": "mit"
+  },
+  {
+   "text": {
+    "content": "Mendrisio",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NOUN",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "DATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "NEUTER",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 31,
+    "label": "POBJ"
+   },
+   "lemma": "Mendrisio"
+  },
+  {
+   "text": {
+    "content": "das",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "DET",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "NOMINATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "NEUTER",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 35,
+    "label": "DET"
+   },
+   "lemma": "der"
+  },
+  {
+   "text": {
+    "content": "letzte",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "ADJ",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "ACCUSATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "NEUTER",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 35,
+    "label": "AMOD"
+   },
+   "lemma": "letzte"
+  },
+  {
+   "text": {
+    "content": "Mal",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NOUN",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "ACCUSATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "NEUTER",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 30,
+    "label": "NPADVMOD"
+   },
+   "lemma": "Mal"
+  },
+  {
+   "text": {
+    "content": "eine",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "DET",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "ACCUSATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "FEMININE",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 38,
+    "label": "DET"
+   },
+   "lemma": "ein"
+  },
+  {
+   "text": {
+    "content": "Schweizer",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "ADJ",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "ACCUSATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "FEMININE",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 38,
+    "label": "AMOD"
+   },
+   "lemma": "Schweizer"
+  },
+  {
+   "text": {
+    "content": "Ortschaft",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NOUN",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "NOMINATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "FEMININE",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 30,
+    "label": "ATTR"
+   },
+   "lemma": "Ortschaft"
+  },
+  {
+   "text": {
+    "content": "Austragungsort",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NOUN",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "NOMINATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "MASCULINE",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 38,
+    "label": "APPOS"
+   },
+   "lemma": "Austragungsort"
+  },
+  {
+   "text": {
+    "content": "der",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "DET",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "GENITIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "FEMININE",
+    "mood": "MOOD_UNKNOWN",
+    "number": "PLURAL",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 43,
+    "label": "DET"
+   },
+   "lemma": "der"
+  },
+  {
+   "text": {
+    "content": "Strassen",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NOUN",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "GENITIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "FEMININE",
+    "mood": "MOOD_UNKNOWN",
+    "number": "PLURAL",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 42,
+    "label": "GOESWITH"
+   },
+   "lemma": "Strasse"
+  },
+  {
+   "text": {
+    "content": "-",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "PUNCT",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 43,
+    "label": "GOESWITH"
+   },
+   "lemma": "-"
+  },
+  {
+   "text": {
+    "content": "WM",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "NOUN",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "NOMINATIVE",
+    "form": "FORM_UNKNOWN",
+    "gender": "FEMININE",
+    "mood": "MOOD_UNKNOWN",
+    "number": "SINGULAR",
+    "person": "THIRD",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 39,
+    "label": "GMOD"
+   },
+   "lemma": "WM"
+  },
+  {
+   "text": {
+    "content": ".",
+    "beginOffset": -1
+   },
+   "partOfSpeech": {
+    "tag": "PUNCT",
+    "aspect": "ASPECT_UNKNOWN",
+    "case": "CASE_UNKNOWN",
+    "form": "FORM_UNKNOWN",
+    "gender": "GENDER_UNKNOWN",
+    "mood": "MOOD_UNKNOWN",
+    "number": "NUMBER_UNKNOWN",
+    "person": "PERSON_UNKNOWN",
+    "proper": "NOT_PROPER",
+    "reciprocity": "RECIPROCITY_UNKNOWN",
+    "tense": "TENSE_UNKNOWN",
+    "voice": "VOICE_UNKNOWN"
+   },
+   "dependencyEdge": {
+    "headTokenIndex": 30,
+    "label": "P"
+   },
+   "lemma": "."
+  }
+ ],
+ "entities": [
+  {
+   "name": "Rad-WM",
+   "type": "EVENT",
+   "metadata": {
+   },
+   "salience": 0.4530673,
+   "mentions": [
+    {
+     "text": {
+      "content": "Rad-WM",
+      "beginOffset": -1
+     },
+     "type": "COMMON"
+    }
+   ]
+  },
+  {
+   "name": "Austragung",
+   "type": "EVENT",
+   "metadata": {
+   },
+   "salience": 0.17937733,
+   "mentions": [
+    {
+     "text": {
+      "content": "Austragung",
+      "beginOffset": -1
+     },
+     "type": "COMMON"
+    }
+   ]
+  },
+  {
+   "name": "Austragungsort",
+   "type": "LOCATION",
+   "metadata": {
+   },
+   "salience": 0.10186873,
+   "mentions": [
+    {
+     "text": {
+      "content": "Austragungsort",
+      "beginOffset": -1
+     },
+     "type": "COMMON"
+    }
+   ]
+  },
+  {
+   "name": "Strassen-WM",
+   "type": "EVENT",
+   "metadata": {
+   },
+   "salience": 0.10186873,
+   "mentions": [
+    {
+     "text": {
+      "content": "Strassen-WM",
+      "beginOffset": -1
+     },
+     "type": "COMMON"
+    }
+   ]
+  },
+  {
+   "name": "Ortschaft",
+   "type": "LOCATION",
+   "metadata": {
+   },
+   "salience": 0.0822944,
+   "mentions": [
+    {
+     "text": {
+      "content": "Ortschaft",
+      "beginOffset": -1
+     },
+     "type": "COMMON"
+    }
+   ]
+  },
+  {
+   "name": "Zürich",
+   "type": "LOCATION",
+   "metadata": {
+    "mid": "/m/08966",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Zürich"
+   },
+   "salience": 0.032701332,
+   "mentions": [
+    {
+     "text": {
+      "content": "Zürich",
+      "beginOffset": -1
+     },
+     "type": "PROPER"
+    }
+   ]
+  },
+  {
+   "name": "Schweizer",
+   "type": "LOCATION",
+   "metadata": {
+    "mid": "/m/06mzp",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Switzerland"
+   },
+   "salience": 0.026786713,
+   "mentions": [
+    {
+     "text": {
+      "content": "Schweizer",
+      "beginOffset": -1
+     },
+     "type": "PROPER"
+    }
+   ]
+  },
+  {
+   "name": "Mendrisio",
+   "type": "LOCATION",
+   "metadata": {
+    "mid": "/m/04j15s",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mendrisio"
+   },
+   "salience": 0.022035465,
+   "mentions": [
+    {
+     "text": {
+      "content": "Mendrisio",
+      "beginOffset": -1
+     },
+     "type": "PROPER"
+    }
+   ]
+  }
+ ],
+ "documentSentiment": {
+  "magnitude": 0.8,
+  "score": -0.4
+ },
+ "language": "de",
+ "categories": [
+ ]
+}
