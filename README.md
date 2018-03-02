@@ -24,6 +24,16 @@ We looked at the [video](https://developer.srgssr.ch/apis/rts-archives/videos) a
 
 [Google Alerts](https://www.google.com/alerts) and it's community [APIs](https://github.com/adasq/google-alerts-api) made us think about using a similar style of notification when new content related to the highlight is produced by the SRF.
 
+## Team
+
+* **Oleg Lavrovsky** (*[Datalets.ch](https://datalets.ch)*) / [@loleg](https://twitter.com/loleg) / [Github](https://github.com/loleg) / [Web](https://www.datalets.ch) / [Blog](https://blog.datalets.ch/author/oleg/)
+* **Davide Morotti** [@davidemorotti](https://twitter.com/davidemorotti) / [Github](https://github.com/davidemorotti) / [Web](https://davidemorotti.ch)
+* **Satuk Kolan** [@satuk34](https://twitter.com/satuk34) / [Github](https://github.com/satuk)
+* **Dimiter Petrov** *[mxlab](http://mx3.ch/)*
+* **Thorben Westerhuys** (*[Hosoya Schaefer Architects](http://www.hosoyaschaefer.com)*) / [@twesterhuys](https://twitter.com/twesterhuys) / [Github](https://github.com/n0rdlicht)
+* **Nils Havelka** (*[Hosoya Schaefer Architects](http://www.hosoyaschaefer.com)*) / [@distributed_sys](https://twitter.com/distributed_sys)
+
+
 # Developer notes
 
 We used the following technologies:
