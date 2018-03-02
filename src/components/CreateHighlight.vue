@@ -46,7 +46,7 @@
     </div>
 
     <div class='createHighlight' @click="showModal = true">
-      <img src="/static/images/flame.png" class="plusImage"><button class='newHighlight' >MEIND TEILEN</button>
+      <button class='newHighlight' >🎤 MEIND TEILEN</button>
     </div>
   </div>
 </template>
@@ -139,13 +139,16 @@
     position: fixed;
     left: 50%;
     bottom: 1em;
-    width: 10em;
-    height: 3em;
-    margin-left: -5em;
+    width: auto;
+    height: 1.5em;
+    margin-left: -4.5em;
+    background-color: white;
+    border: 3px solid #eee;
   }
 
   .createHighlight:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border: 3px solid transparent;
   }
 
   .newHighlight {
