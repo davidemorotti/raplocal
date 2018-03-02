@@ -1,6 +1,6 @@
 # RapLocal
 
-A community content booster as online arena of opinions: this is a browser extension, database service and frontend created at [SRF hackdays 2018](http://hackdays.ch).
+A community content booster as online arena of opinions: this is a browser extension, database service and frontend created at [SRF hackdays 2018](http://hackdays.ch). See also the companion browser extension which collects data at [RapLocal-Chrome](https://github.com/davidemorotti/raplocal-chrome).
 
 The intent of this project is to generate a rich dataset of user reactions to content on SRF and other websites, that we can mine using machine learning. Our goal is to create an effective, content driven analytics system that is more user facing in than standard web analytics, and might be a way out of the commenting system sackgasse most news websites are in.
 
