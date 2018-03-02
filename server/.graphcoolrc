@@ -1,1 +1,3 @@
-{}
+targets:
+  raplocal-prod: shared-eu-west-1/cje9pkgu83esi0129prhhxc94
+  default: raplocal-prod

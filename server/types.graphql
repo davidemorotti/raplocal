@@ -2,7 +2,6 @@ type User @model {
   createdAt: DateTime!
   id: ID! @isUnique
   updatedAt: DateTime!
-  highlights: [Highlight!]! @relation(name: "HighlightOnUser")
 }
 
 type Highlight @model {
@@ -11,5 +10,4 @@ type Highlight @model {
   createdAt: DateTime!
   text: String
   reactions: Int! @defaultValue(value: 0)
-  user: User! @relation(name: "HighlightOnUser")
 }
