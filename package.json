@@ -9,7 +9,8 @@
   "dependencies": {
     "apollo-client": "^1.2.2",
     "vue": "^2.1.10",
-    "vue-apollo": "^2.1.0-beta.8"
+    "vue-apollo": "^2.1.0-beta.8",
+    "vue-truncate-filter": "^1.1.7"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",

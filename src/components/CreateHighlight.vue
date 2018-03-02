@@ -29,6 +29,10 @@
       </div>
     </div>
 
+    <transition name="fade">
+      <p v-if="intro">hello</p>
+    </transition>
+
     <div class='introBox' v-if="showIntro">
       <button class="closeModal" @click="showIntro=false">
         X
@@ -64,7 +68,8 @@
       sourceUrl: '',
       reactions: 0,
       showModal: false,
-      showIntro: true
+      showIntro: true,
+      intro: true,
     }),
 
     // Attribute
@@ -106,6 +111,12 @@
 </script>
 
 <style>
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
   .introBox {
     /* Add shadows to create the "card" effect
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/

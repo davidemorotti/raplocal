@@ -1,18 +1,17 @@
 <template>
   <div class="feed">
 
-<template v-if="loading > 0">
-  Be cool...
-</template>
+    <template v-if="loading > 0">
+      Be cool...
+    </template>
 
-<template v-else>
-  <ul>
-    <li v-for="highlight in allHighlights" :key="highlight.id">
-      <highlight :highlight='highlight' class="highlight" />
-    </li>
-  </ul>
-</template>
-
+    <template v-else>
+      <ul>
+        <li v-for="highlight in allHighlights" :key="highlight.id">
+          <highlight :highlight='highlight' class="highlight" />
+        </li>
+      </ul>
+    </template>
 
   </div>
 </template>
