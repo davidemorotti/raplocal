@@ -1,5 +1,8 @@
 <template>
   <div class="app">
+    <div class="app-header">
+      <img src="/static/images/raplocal-icon-square-google-128.png">
+    </div>
 
     <feed/>
     <create/>
@@ -38,6 +41,10 @@ ul li {
 
   padding: 12px;
   margin: auto;
+}
+
+.app-header {
+  display: block;
 }
 
 input:focus {

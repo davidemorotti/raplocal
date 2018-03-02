@@ -29,18 +29,15 @@
       </div>
     </div>
 
-    <transition name="fade">
-      <p v-if="intro">hello</p>
-    </transition>
-
     <div class='introBox' v-if="showIntro">
       <button class="closeModal" @click="showIntro=false">
         X
       </button>
 
       <div class="stats">
-        <img src="/static/images/raplocal-icon-square-google-128.png">
-        <img src="/static/images/fakestats.png">
+        <img src="/static/images/team.jpg" width="100%">
+
+        <a href="https://github.com/davidemorotti/raplocal"><img alt="star this repo" src="http://githubbadges.com/star.svg?user=davidemorotti&repo=raplocal&style=flat" /></a>
       </div>
 
     </div>
