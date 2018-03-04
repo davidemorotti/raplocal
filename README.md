@@ -26,13 +26,12 @@ We looked at the [video](https://developer.srgssr.ch/apis/rts-archives/videos) a
 
 ## Team
 
-* **Oleg Lavrovsky** (*[Datalets.ch](https://datalets.ch)*) / [@loleg](https://twitter.com/loleg) / [Github](https://github.com/loleg) / [Web](https://www.datalets.ch) / [Blog](https://blog.datalets.ch/author/oleg/)
 * **Davide Morotti** [@davidemorotti](https://twitter.com/davidemorotti) / [Github](https://github.com/davidemorotti) / [Web](https://davidemorotti.ch)
 * **Satuk Kolan** [@satuk34](https://twitter.com/satuk34) / [Github](https://github.com/satuk)
-* **Dimiter Petrov** *[mxlab](http://mx3.ch/)*
-* **Thorben Westerhuys** (*[Hosoya Schaefer Architects](http://www.hosoyaschaefer.com)*) / [@twesterhuys](https://twitter.com/twesterhuys) / [Github](https://github.com/n0rdlicht)
-* **Nils Havelka** (*[Hosoya Schaefer Architects](http://www.hosoyaschaefer.com)*) / [@distributed_sys](https://twitter.com/distributed_sys)
-
+* **Thorben Westerhuys** [@twesterhuys](https://twitter.com/twesterhuys) / [Github](https://github.com/n0rdlicht)
+* **Oleg Lavrovsky** [@loleg](https://twitter.com/loleg) / [Github](https://github.com/loleg) / [Web](https://www.datalets.ch)
+* **Nils Havelka** [@distributed_sys](https://twitter.com/distributed_sys)
+* **Dimiter Petrov** [@crackofdust](https://twitter.com/crackofdusk) / [GitHub](https://github.com/crackofdusk) 
 
 # Developer notes
 
